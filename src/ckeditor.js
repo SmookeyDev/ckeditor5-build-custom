@@ -14,7 +14,7 @@ import { Essentials } from '@ckeditor/ckeditor5-essentials';
 import { BlockQuote } from '@ckeditor/ckeditor5-block-quote';
 import { FindAndReplace } from '@ckeditor/ckeditor5-find-and-replace';
 import { FontColor, FontFamily, FontSize } from '@ckeditor/ckeditor5-font';
-import { Heading, Title } from '@ckeditor/ckeditor5-heading';
+import { Title } from '@ckeditor/ckeditor5-heading';
 import { HorizontalLine } from '@ckeditor/ckeditor5-horizontal-line';
 import { HtmlEmbed } from '@ckeditor/ckeditor5-html-embed';
 import { Image, AutoImage, ImageCaption, ImageInsert, ImageResize, ImageStyle, ImageToolbar, ImageUpload } from '@ckeditor/ckeditor5-image';
@@ -51,7 +51,6 @@ ClassicEditor.builtinPlugins = [
 	FontFamily,
 	FontSize,
 	GeneralHtmlSupport,
-	Heading,
 	HorizontalLine,
 	HtmlComment,
 	HtmlEmbed,
