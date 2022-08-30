@@ -92,8 +92,6 @@ ClassicEditor.builtinPlugins = [
 ClassicEditor.defaultConfig = {
 	toolbar: {
 		items: [
-			'heading',
-			'|',
 			'bold',
 			'italic',
 			'strikethrough',
